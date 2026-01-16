@@ -28,11 +28,9 @@ export default function Navbar() {
       label: "Products",
       children: [
         { href: "/product/wallpaper", label: "Wallpaper" },
-        { href: "/product/wpc-louvers", label: "WPC Louvers" },
-        { href: "/product/pvc-panels", label: "PVC Panels" },
-        { href: "/product/charcoal-louvers", label: "Charcoal Louvers" },
-        { href: "/product/eco-fluted", label: "Fluted Panels" },
+        { href: "/product/all-panels", label: "All Type Of Panels" },
         { href: "/product/uv-sheets", label: "UV Sheets" },
+        { href: "/product/curtains", label: "Curtains"}
       ],
     },
     { href: "/catalogue", label: "Catalogues" },

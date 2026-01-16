@@ -82,7 +82,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="border-t border-black/10 text-center py-4 text-sm text-[#3B3B3B]">
-        © {new Date().getFullYear()} AH Decor — Handcrafted with care
+        © 2023  Artisan Decor — Handcrafted with care
       </div>
     </footer>
   );

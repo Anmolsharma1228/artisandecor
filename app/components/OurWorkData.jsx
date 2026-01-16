@@ -1,7 +1,7 @@
 export const homeinterior = [
   {
     id: 1,
-    image: "/images/ou1.jpeg",
+    image: "/images/ou1.png",
     title: "Front Elevation Design",
     heading:
       "Elegant Night Elevation with Warm Architectural Lighting",
