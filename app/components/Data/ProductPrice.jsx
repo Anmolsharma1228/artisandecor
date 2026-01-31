@@ -1,9 +1,11 @@
 export const products = [
-  {id: 1, name: "All Types Of Panels", Price: "₹250/sqft"},
-  {id: 2, name: "Wallpaper", Price: "Not Declare"},
-  {id: 3, name: "Curtains", Price: "Not Declare"},
-  {id: 4, name: "Carpet", Price: "Not Declare"},
-  {id: 5, name: "GYM Flooring", Price: "₹150/sqft"},
-  {id: 6, name: "Window Blinds", Price: "Not Declare"},
-  {id: 7, name: "All Types of Flooring", Price: "₹1800/sqft"},
-]
+  { id: 1, name: "All Types Of Panels" },
+  { id: 2, name: "Wallpaper" },
+  { id: 3, name: "Curtains" },
+  { id: 4, name: "Carpet" },
+  { id: 5, name: "GYM Flooring" },
+  { id: 6, name: "Window Blinds" },
+  { id: 7, name: "All Types of Flooring" },
+  { id: 8, name: "Pergola"},
+  { id: 9, name: "Decking"}
+];

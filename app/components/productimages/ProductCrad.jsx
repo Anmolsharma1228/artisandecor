@@ -6,7 +6,7 @@ export default function ProductCard({ card }) {
     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-8">
       {card.map((item, index) => (
         <div
-          key={item.id}
+          key={index}
           className="group relative overflow-hidden rounded-2xl"
         >
           {/* IMAGE */}

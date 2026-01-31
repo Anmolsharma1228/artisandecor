@@ -92,49 +92,37 @@ export const flutedpanel = [
     text: "Rich wooden tones with natural grain detailing that bring warmth, depth, and classic luxury to refined interiors.",
   },
   {
-    id: 4,
+    id: 2,
     image: "/images/fu4.jpg",
     title: "Vintage Ornamental Wood",
     text: "A blend of subtle wood textures and elegant ornamental detailing, perfect for classic, boutique, and heritage spaces.",
   },
 ];
 
-export const uvsheets = [
+export const decking = [
   {
     id: 1,
-    image: "/images/uv1.jpg",
-    title: "Pastel Botanical Leaf Pattern Wallpaper",
-    text: "Soft pastel leaves create a calm and modern look for any space. Perfect for bedrooms, kids’ rooms, and minimalist interiors.",
+    image: "/images/de1.jpg",
+    title: "Classic Wooden Balcony Decking",
+    text: "Natural Wood Decking for Balcony & Outdoor Seating",
   },
   {
     id: 2,
-    image: "/images/uv2.jpg",
-    title: "Abstract Tropical Green Leaf Wallpaper",
-    text: "Bold tropical leaf shapes bring freshness and nature indoors. Ideal for living rooms, offices, and contemporary wall décor.",
+    image: "/images/de2.jpg",
+    title: "Modern WPC Garden Decking",
+    text: "Weather-Resistant WPC Decking for Garden Areas",
   },
   {
     id: 3,
-    image: "/images/uv3.jpg",
-    title: "Minimal Botanical Leaf Art Wallpaper – Earth Tone",
-    text: "Elegant leaf artwork in warm earthy shades for a premium feel. Best suited for modern homes, cafés, and accent walls.",
+    image: "/images/de3.jpg",
+    title: "Premium Multi-Level Wooden Deck",
+    text: "Custom Multi-Level Wooden Decking for Luxury Homes",
   },
   {
     id: 4,
-    image: "/images/uv4.jpg",
-    title: "Midnight Bloom",
-    text: "Delicate branches glow against a twilight sky. Life shimmers quietly in shades of blue and gold.",
-  },
-  {
-    id: 5,
-    image: "/images/uv5.jpg",
-    title: "Layered Calm",
-    text: "Soft shapes and leaves drift in quiet balance. Nature and geometry breathe together in gentle harmony.",
-  },
-  {
-    id: 6,
-    image: "/images/uv6.jpg",
-    title: "Echoes of Time",
-    text: "Rust and fading paint tell stories of weathered years. Beauty emerges where decay and endurance meet.",
+    image: "/images/de4.webp",
+    title: "Contemporary Grey Composite Decking",
+    text: "Low-Maintenance Composite Decking for Elegant Outdoor Spaces",
   },
 ];
 
@@ -178,10 +166,10 @@ export const curtains = [
 ];
 
 export const collection = [
-  {id: 1, image: "/images/wf12.avif", title: "Wood Finishe Inter Locking Flooring"},
+  {id: 1, image: "/images/wf11.jpeg", title: "Wood Finishe Inter Locking Flooring"},
   {id: 2, image: "/images/wf2.avif", title: "Natural Wood Plank Flooring"},
   {id: 3, image: "/images/wf3.avif", title: "Reclaimed Wood Flooring"},
-  {id: 4, image: "/images/wf4.avif", title: "Wood-Look Laminate Flooring"},
+  {id: 4, image: "/images/wf4.jpeg", title: "Wood-Look Laminate Flooring"},
   {id: 5, image: "/images/wf15.avif", title: "Herringbone Pattern Wood Flooring"},
   {id: 6, image: "/images/wf6.avif", title: "Outdoor Wooden Deck Flooring Panel"},
 ];
@@ -216,17 +204,14 @@ export const windowblinds = [
 export const pergola = [
   {id: 1, image: "/images/prr1.jpeg", title: "Aluminum Pergola"},
   {id: 2, image: "/images/pr2.avif", title: "Metal Pergola"},
-  {id: 3, image: "/images/pr3.avif", title: "Wooden Pergola"},
+  {id: 3, image: "/images/pr3.jpeg", title: "Wooden Pergola"},
   {id: 4, image: "/images/pr4.avif", title: "Retractable Pergola"},
   {id: 5, image: "/images/pr5.avif", title: "Modern Pergola Design"},
   {id: 6, image: "/images/pr6.avif", title: "Classic Garden Pergola"}
 ];
 
 export const cladding = [
-  {id: 1, image: "/images/cl1.avif", title: "HPL Cladding"},
-  {id: 2, image: "/images/cl2.avif", title: "WPC Cladding"},
-  {id: 3, image: "/images/cl3.avif", title: "Composite Cladding"},
+  {id: 1, image: "/images/cl1.jpeg", title: "HPL Cladding"},
+  {id: 2, image: "/images/cl2.jpeg", title: "WPC Cladding"},
   {id: 4, image: "/images/cl4.avif", title: "Metal Cladding"},
-  {id: 5, image: "/images/cl5.avif", title: "Wooden Cladding"},
-  {id: 6, image: "/images/cl6.avif", title: "Fiber Cement Cladding"}
 ]

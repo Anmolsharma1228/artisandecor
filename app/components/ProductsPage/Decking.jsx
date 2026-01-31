@@ -1,23 +1,19 @@
 import React from 'react'
 import ProductCard from '../productimages/ProductCrad'
-import { uvsheets } from '../productimages/Productimages'
+import { decking } from '../productimages/Productimages'
 
-const UvSheets = () => {
+const Decking = () => {
   return (
     <section className="bg-[#FAF9F7] py-20">
             {/* HERO / INTRO */}
             <div className="max-w-5xl ml-4 md:ml-10 px-6 mt-6">
               <h1 className="text-2xl md:text-3xl font-bold leading-tight">
-                Walls That Speak Style, Texture,
-                <span className="block text-orange-700">and Elegance</span>
+                Premium Decking for
+                <span className="block text-orange-700">Outdoor & Indoor Spaces</span>
               </h1>
       
               <p className="mt-6 text-lg text-gray-700 leading-relaxed max-w-3xl">
-                Artisan Decor wallpapers are designed to elevate interior spaces with
-                refined patterns, rich textures, and long-lasting finishes. Crafted
-                using premium materials, our wallpapers offer a perfect balance of
-                beauty and durability, making them ideal for both residential and
-                commercial interiors.
+               Enhance your outdoor and semi-outdoor spaces with our premium decking solutions, designed to combine durability, elegance, and natural beauty. Our decking products are crafted to withstand weather conditions while maintaining their rich finish and strength.
               </p>
             </div>
       
@@ -29,11 +25,11 @@ const UvSheets = () => {
       
               <div className="mt-12">
                 {/* ProductCard already contains grid */}
-                <ProductCard card={uvsheets} />
+                <ProductCard card={decking} />
               </div>
             </div>
           </section>
   )
 }
 
-export default UvSheets
+export default Decking

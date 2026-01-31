@@ -12,7 +12,7 @@ export const homeinterior = [
   {
     id: 2,
     image: "/images/ou2.png",
-    title: "HPL - 100 Feet Panel & Ceiling",
+    title: "HPL - Sofit Panel & Ceiling",
     heading:
       "Modern exterior finish with textured panels and warm LED lighting for a premium, elegant look.",
     Description:

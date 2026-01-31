@@ -42,10 +42,10 @@ const Footer = () => {
   <ul className="space-y-2">
     {[
       { label: "Wallpapers", href: "/product/wallpaper" },
-      { label: "WPC Louvers", href: "/product/wpc-louvers" },
-      { label: "PVC Panel", href: "/product/pvc-panels" },
-      { label: "Fluted Panel", href: "/product/eco-fluted" },
-      { label: "UV Sheet", href: "/product/uv-sheets" },
+      { label: "Carpet", href: "/product/carpet" },
+      { label: "GYM Flooring", href: "/product/gym-flooring" },
+      { label: "Window Blinds", href: "/product/window-blinds" },
+      { label: "Pergola", href: "/product/pergola" },
     ].map((item, i) => (
       <li key={i}>
         <Link

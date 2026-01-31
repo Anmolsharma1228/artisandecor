@@ -2,7 +2,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 import generateProductListMessage from "./utils/Whatsapp";
 
-const phone = "919711119771";
+const phone = "919667384928";
 const message = generateProductListMessage();
 
 export default function WhatsAppButton() {
