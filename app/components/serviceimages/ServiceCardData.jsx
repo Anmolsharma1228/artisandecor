@@ -208,7 +208,7 @@ export const odercarddata = [
     step: "02.",
     heading: "Share Your Requirements",
     title:
-      "Send us your selected design details via WhatsApp or enquiry form. Custom sizes and bulk orders are welcome.",
+      "Send us your selected design details via WhatsApp. Custom sizes and bulk orders are welcome.",
   },
   {
     id: 3,
