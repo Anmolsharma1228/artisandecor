@@ -191,7 +191,8 @@ export const servicecard = [
   {
     id: 4,
     heading: "Execution",
-    title: "Skilled professionals bring the design to life with precision and care. We focus on timely delivery while maintaining high craftsmanship standards.",
+    title:
+      "Skilled professionals bring the design to life with precision and care. We focus on timely delivery while maintaining high craftsmanship standards.",
   },
 ];
 
