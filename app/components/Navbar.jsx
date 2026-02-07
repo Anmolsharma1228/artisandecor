@@ -28,18 +28,17 @@ export default function Navbar() {
       label: "Products",
       children: [
         { href: "/product/wallpaper", label: "Wallpaper" },
-        { href: "/product/carpet", label: "Carpet"},
-        { href: "/product/gym-flooring", label: "Gym Flooring"},
-        { href: "/product/window-blinds", label: "Window Blinds"},
-        { href: "pergola", label: "Pergola"},
-        { href: "cladding", label: "HPL, WPC, Cladding"},
+        { href: "/product/carpet", label: "Carpet" },
+        { href: "/product/gym-flooring", label: "Gym Flooring" },
+        { href: "/product/window-blinds", label: "Window Blinds" },
+        { href: "/product/pergola", label: "Pergola" },
+        { href: "/product/cladding", label: "HPL, WPC, Cladding" },
         { href: "/product/decking", label: "Decking" },
-        { href: "/product/curtains", label: "Curtains"},
+        { href: "/product/curtains", label: "Curtains" },
         { href: "/product/all-panels", label: "All Type Of Panels" },
       ],
     },
     { href: "/catalogue", label: "Catalogues" },
-    // { href: "/about", label: "About" },
     { href: "/ourwork", label: "Work Gallery" },
   ];
 
@@ -68,14 +67,14 @@ export default function Navbar() {
                   onMouseEnter={() => setOpenDropdown(item.label)}
                   onMouseLeave={() => setOpenDropdown(null)}
                 >
-                  <button className="flex items-center gap-1">
+                  <Link href="" className="flex items-center gap-1">
                     {item.label}
                     <FaChevronDown
                       className={`text-xs transition-transform duration-300 ${
                         openDropdown === item.label ? "rotate-180" : ""
                       }`}
                     />
-                  </button>
+                  </Link>
 
                   {/* Dropdown */}
                   {openDropdown === item.label && (
@@ -113,12 +112,13 @@ export default function Navbar() {
                 >
                   {item.label}
                 </Link>
-              )
+              ),
             )}
           </div>
 
           {/* Mobile Toggle */}
           <button
+            aria-label="Toggle navigation menu"
             className="md:hidden text-black text-xl"
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -140,7 +140,7 @@ export default function Navbar() {
                 <button
                   onClick={() =>
                     setOpenDropdown(
-                      openDropdown === item.label ? null : item.label
+                      openDropdown === item.label ? null : item.label,
                     )
                   }
                   className="w-full flex justify-between font-semibold text-black"
@@ -177,7 +177,7 @@ export default function Navbar() {
               >
                 {item.label}
               </Link>
-            )
+            ),
           )}
         </div>
       </div>

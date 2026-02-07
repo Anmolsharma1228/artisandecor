@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import SwiperSlides from "../../components/SwiperSlides";
-import { officesinteriorlides } from "../serviceimages/Swiperimages"
+import { officesinteriorlides } from "../serviceimages/Swiperimages";
 import Cards from "../../components/Cards";
 import { officeinteriorcarddata } from "../serviceimages/ServiceCardData";
-import { Sofa, Columns, Lightbulb, Building2, Check } from "lucide-react";
+import { Check } from "lucide-react";
 
 const OfficeInterior = () => {
   return (
@@ -35,25 +35,24 @@ const OfficeInterior = () => {
         </div>
 
         {/* SWIPER */}
-       <SwiperSlides slides={officesinteriorlides}  />
+        <SwiperSlides slides={officesinteriorlides} />
       </div>
       {/* WHAT WE OFFER */}
       <div className="mt-16 md:mt-36 px-4">
-        <h1 className="text-center text-2xl sm:text-3xl font-bold mb-10">
+        <h2 className="text-center text-2xl sm:text-3xl font-bold mb-10">
           What We Offer
-        </h1>
+        </h2>
 
         <Cards card={officeinteriorcarddata} />
-
       </div>
       <div className="mt-20 md:mt-32 max-w-5xl mx-auto px-2">
         <div className="bg-[#F8F5F0] rounded-2xl shadow-xl p-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/*  First Card */}
             <div>
-              <h1 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h3 className="text-xl font-semibold mb-6 text-center md:text-left">
                 Office Interiors Work Best In
-              </h1>
+              </h3>
 
               <ul className="list-disc space-y-3 text-gray-700">
                 <li>Corporate Offices & IT Spaces</li>
@@ -67,9 +66,9 @@ const OfficeInterior = () => {
 
             {/* Second Card */}
             <div>
-              <h1 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h4 className="text-xl font-semibold mb-6 text-center md:text-left">
                 Why Choose Us for Office Interiors?
-              </h1>
+              </h4>
 
               <ul className="space-y-3 text-gray-700">
                 <li className="flex gap-2">
@@ -101,9 +100,9 @@ const OfficeInterior = () => {
 
             {/* Third Card */}
             <div>
-              <h1 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h5 className="text-xl font-semibold mb-6 text-center md:text-left">
                 Why Choose Us for Office Interiors?
-              </h1>
+              </h5>
 
               <ul className="space-y-3 text-gray-700">
                 <li className="flex gap-2">

@@ -68,17 +68,17 @@ export default function HomeSwiper() {
                 style={{ y: textY, opacity: textOpacity }}
                 className="relative z-10 flex flex-col justify-center h-full px-6 md:px-20 max-w-2xl text-white"
               >
-                <span className="uppercase tracking-[0.3em] text-sm text-[#D4AF37] mb-4">
+                <h1 className="uppercase tracking-[0.3em] text-sm text-[#D4AF37] mb-4">
                   Artisan Decor
-                </span>
+                </h1>
 
-                <h1 className="text-3xl md:text-5xl font-light leading-tight">
+                <h2 className="text-3xl md:text-5xl font-light leading-tight">
                   Crafting{" "}
                   <span className="font-semibold text-[#D4AF37]">
                     Elegant Interiors
                   </span>
                   <br /> with Purpose
-                </h1>
+                </h2>
 
                 <p className="text-sm md:text-lg mt-6 text-gray-200 leading-relaxed">
                   Artisan Decor delivers premium wall panels and décor solutions

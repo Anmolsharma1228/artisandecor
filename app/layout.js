@@ -8,13 +8,15 @@ const playfair_display = Playfair_Display({
   subsets: ["latin"]
 })
 
-export const metadata ={
-  title: "Artisan Decor",
-  MdDescription: "Premium interior décor solutions",
-  icon:{
-    icon: "/favicon.ico"
-  }
-}
+export const metadata = {
+  title: "Artisan Decor - Wallpaper & Interior Decor",
+  description:
+    "Artisan Decor provides premium wallpapers, wall panels and interior decor solutions for modern homes.",
+
+  verification: {
+    google: "vJCX8kKa61RSyQh8zxnssLWD_Lg2pJiycFcgPZnqkWI",
+  },
+};
 
 export default function RootLayout({ children }) {
   return (
