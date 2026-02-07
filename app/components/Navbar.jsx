@@ -35,7 +35,7 @@ export default function Navbar() {
         { href: "/product/cladding", label: "HPL, WPC, Cladding" },
         { href: "/product/decking", label: "Decking" },
         { href: "/product/curtains", label: "Curtains" },
-        { href: "/product/all-panels", label: "All Type Of Panels" },
+        { href: "/product/all-type-panels", label: "All Type Of Panels" },
       ],
     },
     { href: "/catalogue", label: "Catalogues" },

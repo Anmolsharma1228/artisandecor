@@ -74,7 +74,7 @@ export default async function ProductPage({ params }) {
   const { slug } = await params;
 
   if (slug === "wallpaper") return <Wallpaper />;
-  if (slug === "all-panels") return <WpcLouvers />;
+  if (slug === "all-type-panels") return <WpcLouvers />;
   if (slug === "curtains") return <Curtains />;
   if (slug === "carpet") return <Carpet />;
   if (slug === "gym-flooring") return <GymFlooring />;
