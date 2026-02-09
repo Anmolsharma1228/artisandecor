@@ -14,10 +14,10 @@ const HomeInterior = () => {
       <div className="py-10 mt-16 flex flex-col md:flex-row gap-10 items-center max-w-6xl mx-auto px-4">
         {/* TEXT */}
         <div className="w-full md:max-w-2xl">
-          <h1 className="text-lg sm:text-xl font-semibold mb-2">
+          <h1 className="font-playfair text-lg sm:text-xl font-semibold mb-2">
             Home interiors reflect your lifestyle, comfort, and personal taste.
           </h1>
-          <p>
+          <p className="font-inter">
             A thoughtfully designed home creates harmony between aesthetics and
             functionality. Smart space planning ensures every corner is used
             efficiently and beautifully. Carefully chosen colors add warmth,
@@ -37,7 +37,7 @@ const HomeInterior = () => {
       </div>
       {/* WHAT WE OFFER */}
       <div className="mt-16 md:mt-36 px-4">
-        <h1 className="text-center text-2xl sm:text-3xl font-bold mb-10">
+        <h1 className="font-playfair text-center text-2xl sm:text-3xl font-bold mb-10">
            Home Interior Design Services for Homes
         </h1>
       <Cards card={homeinteriorcarddata} />
@@ -47,11 +47,11 @@ const HomeInterior = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/*  First Card */}
             <div>
-              <h1 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h1 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Home Interiors Work Best In
               </h1>
 
-              <ul className="list-disc space-y-3 text-gray-700">
+              <ul className="font-inter list-disc space-y-3 text-gray-700">
                 <li>Living Rooms & Drawing Areas</li>
                 <li>Bedrooms & Master Suites</li>
                 <li>Kitchens & Dining Spaces</li>
@@ -63,11 +63,11 @@ const HomeInterior = () => {
 
             {/* Second Card */}
             <div>
-              <h1 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h1 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Why Choose Us for Home Interiors?
               </h1>
 
-              <ul className="space-y-3 text-gray-700">
+              <ul className="font-inter space-y-3 text-gray-700">
                 <li className="flex gap-2">
                   <Check className="text-green-600" />
                   Personalized designs tailored to your lifestyle
@@ -97,11 +97,11 @@ const HomeInterior = () => {
 
             {/* Third Card */}
             <div>
-              <h1 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h1 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Our Home Interior Process
               </h1>
 
-              <ul className="space-y-3 text-gray-700 list-decimal">
+              <ul className="font-inter space-y-3 text-gray-700 list-decimal">
                 <li>
                   Consultation – Understanding your vision, needs, and lifestyle
                 </li>

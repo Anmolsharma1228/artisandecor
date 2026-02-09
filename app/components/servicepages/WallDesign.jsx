@@ -13,11 +13,11 @@ const WallDesign = () => {
         {/* TEXT */}
         <div className="w-full md:max-w-2xl">
           {/* H1 – Only one per page */}
-          <h1 className="text-xl sm:text-2xl font-bold mb-4">
+          <h1 className="font-playfair text-xl sm:text-2xl font-bold mb-4">
             Premium Wall Design Services for Modern Interiors
           </h1>
 
-          <p>
+          <p className="font-inter">
             Wall design plays a vital role in shaping the elegance, mood, and
             personality of interior spaces. Our premium wall design services
             focus on transforming ordinary walls into sophisticated design
@@ -35,7 +35,7 @@ const WallDesign = () => {
 
       {/* WHAT WE OFFER */}
       <section className="mt-16 md:mt-36 px-4">
-        <h2 className="text-center text-2xl sm:text-3xl font-bold mb-10">
+        <h2 className="font-playfair text-center text-2xl sm:text-3xl font-bold mb-10">
           Our Wall Design Services
         </h2>
 

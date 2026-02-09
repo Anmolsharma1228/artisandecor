@@ -27,7 +27,7 @@ export default function Cards({ card }) {
 
             {/* Title */}
             <h3
-              className="text-lg font-semibold text-[#1F1F1F]
+              className="font-playfair text-lg font-semibold text-[#1F1F1F]
                mb-2 transition-colors duration-500
                group-hover:text-[#C9A24D]"
             >
@@ -35,7 +35,7 @@ export default function Cards({ card }) {
             </h3>
 
             {/* Text */}
-            <p className="text-[16px] text-[#6B6B6B] leading-relaxed">
+            <p className="font-inter text-[14px] text-[#6B6B6B] leading-relaxed">
               {card.text}
             </p>
 

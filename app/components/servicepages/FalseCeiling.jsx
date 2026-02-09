@@ -12,11 +12,11 @@ const FalseCeiling = () => {
       <section className="py-10 mt-16 flex flex-col md:flex-row gap-10 items-center max-w-6xl mx-auto px-4">
         <div className="w-full md:max-w-2xl">
           {/* H1 – Only one per page */}
-          <h1 className="text-xl sm:text-2xl font-bold mb-4">
+          <h1 className="font-playfair text-xl sm:text-2xl font-bold mb-4">
             False Ceiling Design Services for Homes & Offices
           </h1>
 
-          <p>
+          <p className="font-inter">
             False ceiling design enhances interiors by adding elegance, improving
             lighting, and increasing comfort. At AH Decor, we provide premium
             false ceiling services using gypsum, POP, wooden, and modular ceiling
@@ -34,7 +34,7 @@ const FalseCeiling = () => {
 
       {/* SERVICES OFFERED */}
       <section className="mt-16 md:mt-36 px-4">
-        <h2 className="text-center text-2xl sm:text-3xl font-bold mb-10">
+        <h2 className="font-playfair text-center text-2xl sm:text-3xl font-bold mb-10">
           Our False Ceiling Solutions
         </h2>
 
@@ -48,11 +48,11 @@ const FalseCeiling = () => {
             
             {/* WHERE IT WORKS */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h3 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Where False Ceilings Work Best
               </h3>
 
-              <ul className="list-disc space-y-3 text-gray-700">
+              <ul className="font-inter list-disc space-y-3 text-gray-700">
                 <li>Living Rooms & Drawing Areas</li>
                 <li>Bedrooms & Master Suites</li>
                 <li>TV Units & Feature Ceilings</li>
@@ -64,11 +64,11 @@ const FalseCeiling = () => {
 
             {/* WHY CHOOSE US */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h3 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Why Choose Our False Ceiling Services?
               </h3>
 
-              <ul className="space-y-3 text-gray-700">
+              <ul className="font-inter space-y-3 text-gray-700">
                 <li className="flex gap-2">
                   <Check className="text-green-600" />
                   Premium gypsum, POP & wooden ceiling materials
@@ -98,11 +98,11 @@ const FalseCeiling = () => {
 
             {/* PROCESS */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h3 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Our False Ceiling Installation Process
               </h3>
 
-              <ol className="space-y-3 text-gray-700 list-decimal list-inside">
+              <ol className="font-inter space-y-3 text-gray-700 list-decimal list-inside">
                 <li>Site consultation & space assessment</li>
                 <li>Design planning with material & lighting selection</li>
                 <li>Professional installation with structural precision</li>

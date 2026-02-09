@@ -32,8 +32,8 @@ export default function ProductCard({ card }) {
             sm:group-hover:opacity-100 sm:group-hover:translate-y-0
             transition-all duration-500 ease-out"
           >
-            <h3 className="text-lg font-medium">{item.title}</h3>
-            <p className="mt-1 text-sm text-gray-200">{item.text}</p>
+            <h3 className="font-playfair text-lg font-medium">{item.title}</h3>
+            <p className="font-inter mt-1 text-sm text-gray-200">{item.text}</p>
           </div>
         </div>
       ))}

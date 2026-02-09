@@ -14,7 +14,7 @@ export default function CatalogueCard({ category }) {
       "
     >
       {/* Title */}
-      <h2 className="text-xl sm:text-2xl font-bold mb-8 tracking-tight">
+      <h2 className="font-playfair text-xl sm:text-2xl font-bold mb-8 tracking-tight">
         <span className="text-red-600">
           {category.category.split(" ")[0]}
         </span>{" "}
@@ -24,7 +24,7 @@ export default function CatalogueCard({ category }) {
       </h2>
 
       {/* Divider */}
-      <div className="h-px w-16 bg-[#B89C5A]/60 mb-8" />
+      <div className=" h-px w-16 bg-[#B89C5A]/60 mb-8" />
 
       {/* Items */}
       <ul className="space-y-4">
@@ -38,7 +38,7 @@ export default function CatalogueCard({ category }) {
               href={item.pdf}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#B89C5A] transition-colors"
+              className="font-inter hover:text-[#B89C5A] transition-colors"
             >
               {item.name}
             </a>

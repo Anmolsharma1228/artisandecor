@@ -20,19 +20,19 @@ export default function CataloguePage() {
           initial="hidden"
           animate="visible"
           transition={{ duration: 0.7, ease: "easeOut" }} className="relative max-w-5xl mx-auto px-6 py-16 text-center">
-          <p className="uppercase tracking-[0.3em] text-xs text-orange-600 mb-4">
+          <p className="font-playfair uppercase tracking-[0.3em] text-xs text-orange-600 mb-4">
             Artisan Decor
           </p>
 
-          <h1 className="text-3xl sm:text-4xl font-semibold text-gray-900">
+          <h1 className="font-playfair text-3xl sm:text-4xl font-semibold text-gray-900">
             Product Catalogue
           </h1>
 
-          <p className="mt-4 text-lg text-gray-600">
+          <p className="font-inter mt-4 text-lg text-gray-600">
             Inspired materials, thoughtful craftsmanship, elegant living
           </p>
 
-          <div className="mt-6 inline-flex items-center gap-2 border border-orange-200 px-6 py-2 rounded-full text-sm text-orange-700 bg-white/70 backdrop-blur">
+          <div className="font-inter mt-6 inline-flex items-center gap-2 border border-orange-200 px-6 py-2 rounded-full text-sm text-orange-700 bg-white/70 backdrop-blur">
             Click on a series to explore
           </div>
         </motion.div>

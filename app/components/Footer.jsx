@@ -10,10 +10,10 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-3 gap-10 text-[#3B3B3B]">
         {/* Quick Links */}
         <div>
-          <h2 className="text-lg font-semibold mb-4 relative inline-block after:absolute after:left-0 after:-bottom-1 after:w-8 after:h-0.5 after:bg-[#D32F2F]">
+          <h2 className="font-playfair text-lg font-semibold mb-4 relative inline-block after:absolute after:left-0 after:-bottom-1 after:w-8 after:h-0.5 after:bg-[#D32F2F]">
             Quick Links
           </h2>
-          <ul className="space-y-2">
+          <ul className="space-y-2 font-inter">
             {["About Us", "Catalogues", "Work Gallery"].map((item, i) => (
               <li key={i}>
                 <Link
@@ -35,11 +35,11 @@ const Footer = () => {
 
         {/* Collections */}
         <div>
-  <h2 className="text-lg font-semibold mb-4 relative inline-block after:absolute after:left-0 after:-bottom-1 after:w-8 after:h-0.5 after:bg-[#2E7D32]">
+  <h2 className="font-playfair text-lg font-semibold mb-4 relative inline-block after:absolute after:left-0 after:-bottom-1 after:w-8 after:h-0.5 after:bg-[#2E7D32]">
     Collections
   </h2>
 
-  <ul className="space-y-2">
+  <ul className="space-y-2 font-inter">
     {[
       { label: "Wallpapers", href: "/product/wallpaper" },
       { label: "Carpet", href: "/product/carpet" },
@@ -62,10 +62,10 @@ const Footer = () => {
 
         {/* Contact */}
         <div>
-          <h2 className="text-lg font-semibold mb-4 relative inline-block after:absolute after:left-0 after:-bottom-1 after:w-8 after:h-0.5 after:bg-[#1B5E20]">
+          <h2 className="font-playfair text-lg font-semibold mb-4 relative inline-block after:absolute after:left-0 after:-bottom-1 after:w-8 after:h-0.5 after:bg-[#1B5E20]">
             Contact
           </h2>
-          <ul className="space-y-2">
+          <ul className="space-y-2 font-inter">
             <li className="flex gap-2 opacity-80 hover:opacity-100 transition">
               <MapPinCheck />
               Green Field ,Faridabad, Haryana-121010, India

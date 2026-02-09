@@ -3,15 +3,15 @@ import { homeinterior } from "../components/OurWorkData";
 export default function Workpage() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-20">
-      <h1 className="text-3xl font-semibold mb-4 mt-6 md:ml-12">
+      <h1 className="font-playfair text-3xl font-semibold mb-4 mt-6 md:ml-12">
         Our Work Gallery
       </h1>
-      <p className="text-gray-600 mb-6 md:ml-12">
+      <p className="font-inter text-gray-600 mb-6 md:ml-12">
         A showcase of our recent interior & decor projects
       </p>
 
       <div className="max-w-2xl mb-12 md:ml-12">
-        <p className="text-gray-600">
+        <p className="font-inter text-gray-600">
           Explore our completed interior projects across homes, offices, and
           commercial spaces. Each design reflects our commitment to quality
           craftsmanship, modern aesthetics, and client satisfaction.
@@ -48,10 +48,10 @@ export default function Workpage() {
                 "
               >
                 <div>
-                  <h3 className="text-white text-lg font-medium">
+                  <h3 className="font-playfair text-white text-lg font-medium">
                     {item.title}
                   </h3>
-                  <p className="text-sm text-gray-300">
+                  <p className="font-inter text-sm text-gray-300">
                     {item.location}
                   </p>
                 </div>
@@ -60,12 +60,12 @@ export default function Workpage() {
 
             {/* TEXT SIDE */}
             <div className={`${index % 2 !== 0 ? "md:order-1" : ""}`}>
-              <h3 className="text-xl font-semibold mb-3">
+              <h3 className="font-playfair text-xl font-semibold mb-3">
                 {item.title}
               </h3>
 
-              <p className="text-gray-600">
-                {item.Description} {item.heading}
+              <p className="font-inter text-gray-600">
+                {item.Description}
               </p>
             </div>
           </div>

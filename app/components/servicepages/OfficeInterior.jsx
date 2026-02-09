@@ -13,11 +13,11 @@ const OfficeInterior = () => {
       <div className="py-10 mt-16 flex flex-col md:flex-row gap-10 items-center max-w-6xl mx-auto px-4">
         {/* TEXT */}
         <div className="w-full md:max-w-2xl">
-          <h1 className="text-lg sm:text-xl font-semibold mb-2">
+          <h1 className="font-playfair text-lg sm:text-xl font-semibold mb-2">
             Office interiors play a vital role in shaping productivity,
             creativity, and brand identity.
           </h1>
-          <p>
+          <p className="font-inter">
             A well-designed workspace enhances employee comfort while promoting
             focus and efficiency. Thoughtful space planning ensures smooth
             movement and optimal use of available areas. Modern office interiors
@@ -39,7 +39,7 @@ const OfficeInterior = () => {
       </div>
       {/* WHAT WE OFFER */}
       <div className="mt-16 md:mt-36 px-4">
-        <h2 className="text-center text-2xl sm:text-3xl font-bold mb-10">
+        <h2 className="font-playfair text-center text-2xl sm:text-3xl font-bold mb-10">
            Office Interior Design Services for Offices
         </h2>
 
@@ -50,11 +50,11 @@ const OfficeInterior = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/*  First Card */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h3 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Office Interiors Work Best In
               </h3>
 
-              <ul className="list-disc space-y-3 text-gray-700">
+              <ul className="font-inter list-disc space-y-3 text-gray-700">
                 <li>Corporate Offices & IT Spaces</li>
                 <li>Workstations & Open Office Areas</li>
                 <li>Conference & Meeting Rooms</li>
@@ -66,11 +66,11 @@ const OfficeInterior = () => {
 
             {/* Second Card */}
             <div>
-              <h4 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h4 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Why Choose Us for Office Interiors?
               </h4>
 
-              <ul className="space-y-3 text-gray-700">
+              <ul className="font-inter space-y-3 text-gray-700">
                 <li className="flex gap-2">
                   <Check className="text-green-600" />
                   Functional and productivity-focused designs
@@ -100,11 +100,11 @@ const OfficeInterior = () => {
 
             {/* Third Card */}
             <div>
-              <h5 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h5 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Why Choose Us for Office Interiors?
               </h5>
 
-              <ul className="space-y-3 text-gray-700">
+              <ul className="font-inter space-y-3 text-gray-700">
                 <li className="flex gap-2">
                   <Check className="text-green-600" />
                   Functional and productivity-focused designs

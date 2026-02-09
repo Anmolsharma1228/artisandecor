@@ -14,11 +14,11 @@ const FurnitureWork = () => {
       <div className="py-10 mt-16 flex flex-col md:flex-row gap-10 items-center max-w-6xl mx-auto px-4">
         {/* TEXT */}
         <div className="w-full md:max-w-2xl">
-          <h1 className="text-lg sm:text-xl font-semibold mb-2">
+          <h1 className="font-playfair text-lg sm:text-xl font-semibold mb-2">
             Furniture work plays a key role in defining both comfort and
             functionality within a space.
           </h1>
-          <p>
+          <p className="font-inter">
             Well-crafted furniture enhances usability while complementing the
             overall interior design. Custom furniture solutions are designed to
             fit your space, style, and daily needs. Quality materials ensure
@@ -38,7 +38,7 @@ const FurnitureWork = () => {
       </div>
       {/* WHAT WE OFFER */}
       <div className="mt-16 md:mt-36 px-4">
-        <h1 className="text-center text-2xl sm:text-3xl font-bold mb-10">
+        <h1 className="font-playfair text-center text-2xl sm:text-3xl font-bold mb-10">
            All Types Of Furniture Design Services for Homes & Offices
         </h1>
 
@@ -49,11 +49,11 @@ const FurnitureWork = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/*  First Card */}
             <div>
-              <h1 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h1 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Residential (Home) Furniture Work
               </h1>
 
-              <ul className="list-disc space-y-3 text-gray-700">
+              <ul className="font-inter list-disc space-y-3 text-gray-700">
                 <li>Living Room Furniture – Sofas, TV units, coffee tables, display units</li>
                 <li>Bedroom Furniture – Beds, wardrobes, side tables, dressing units</li>
                 <li>Modular Kitchen Furniture – Cabinets, drawers, pantry units</li>
@@ -67,11 +67,11 @@ const FurnitureWork = () => {
 
             {/* Second Card */}
             <div>
-              <h1 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h1 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Why Choose Us for Home Furniture?
               </h1>
 
-              <ul className="space-y-3 text-gray-700">
+              <ul className="font-inter space-y-3 text-gray-700">
                 <li className="flex gap-2">
                   <Check className="text-green-600" />
                   Custom-designed furniture tailored to your home
@@ -101,11 +101,11 @@ const FurnitureWork = () => {
 
             {/* Third Card */}
             <div>
-              <h1 className="text-xl font-semibold mb-6 text-center md:text-left">
+              <h1 className="font-playfair text-xl font-semibold mb-6 text-center md:text-left">
                 Our Home Furniture Process
               </h1>
 
-              <ul className="space-y-3 text-gray-700 list-decimal">
+              <ul className="font-inter space-y-3 text-gray-700 list-decimal">
                 <li>
                   Consultation – Understanding your furniture needs, space, and
                   lifestyle
