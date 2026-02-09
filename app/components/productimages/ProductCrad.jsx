@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ProductCard({ card }) {
   return (
@@ -33,7 +32,7 @@ export default function ProductCard({ card }) {
             transition-all duration-500 ease-out"
           >
             <h3 className="font-playfair text-lg font-medium">{item.title}</h3>
-            <p className="font-inter mt-1 text-sm text-gray-200">{item.text}</p>
+            {/* <p className="font-inter mt-1 text-sm text-gray-200">{item.text}</p> */}
           </div>
         </div>
       ))}
