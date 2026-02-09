@@ -1,5 +1,5 @@
-"use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProductCard({ card }) {
   return (
@@ -10,7 +10,7 @@ export default function ProductCard({ card }) {
           className="group relative overflow-hidden rounded-2xl"
         >
           {/* IMAGE */}
-          <div className="relative h-60 sm:h-70 w-full">
+          <div className="font-inter relative h-60 sm:h-70 w-full">
             <Image
               src={item.image}
               alt={item.title}

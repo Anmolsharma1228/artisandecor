@@ -1,12 +1,18 @@
 import "./globals.css";
-import {Palyfair_Display, Playfair, Playfair_Display} from 'next/font/google';
+import { Inter ,Playfair_Display} from 'next/font/google';
 import WhatsAppIcon from '../app/components/WhatsAppIcon'
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer'
 
-const playfair_display = Playfair_Display({
-  subsets: ["latin"]
-})
+const inter = Inter({ 
+  subsets: ["latin"],
+  variable: "--font-inter"
+ });
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
 
 export const metadata = {
   title: "Artisan Decor - Wallpaper & Interior Decor",
@@ -21,7 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${inter.variable} ${playfair.variable}`}>
         <Navbar/>
         {children}
         <WhatsAppIcon/>

@@ -38,7 +38,7 @@ const HomeInterior = () => {
       {/* WHAT WE OFFER */}
       <div className="mt-16 md:mt-36 px-4">
         <h1 className="text-center text-2xl sm:text-3xl font-bold mb-10">
-          What We Offer
+           Home Interior Design Services for Homes
         </h1>
       <Cards card={homeinteriorcarddata} />
       </div>

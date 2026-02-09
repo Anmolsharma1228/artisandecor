@@ -1,4 +1,3 @@
-import { image } from "framer-motion/client";
 
 export const wallpaper = [
   {
@@ -166,12 +165,12 @@ export const curtains = [
 ];
 
 export const collection = [
-  {id: 1, image: "/images/wf11.jpeg", title: "Wood Finishe Inter Locking Flooring"},
-  {id: 2, image: "/images/wf2.avif", title: "Natural Wood Plank Flooring"},
-  {id: 3, image: "/images/wf3.avif", title: "Reclaimed Wood Flooring"},
-  {id: 4, image: "/images/wf4.jpeg", title: "Wood-Look Laminate Flooring"},
+  {id: 1, image: "/images/wd5.jpeg", title: "Customize Wallpaper", slug: 'wallpaper'},
+  {id: 2, image: "/images/cr4.avif", title: "Rustic Jute Carpet", slug: 'carpet'},
+  {id: 3, image: "/images/gy1.avif", title: "Durable Rubber Gym Flooring", slug: 'gym-flooring'},
+  {id: 4, image: "/images/wb2.avif", title: "Modern Aluminum Blinds", slug: 'window-blinds'},
   {id: 5, image: "/images/wf15.avif", title: "Herringbone Pattern Wood Flooring"},
-  {id: 6, image: "/images/wf6.avif", title: "Outdoor Wooden Deck Flooring Panel"},
+  {id: 6, image: "/images/wf6.avif", title: "Outdoor Wooden Deck Flooring Panel", slug: 'decking'},
 ];
 
 export const carpet = [

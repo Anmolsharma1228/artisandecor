@@ -31,10 +31,10 @@ export default function AboutUs({ showCards = false }) {
         transition={{ duration: 0.6 }}
         className="text-center mb-16"
       >
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="font-playfair text-2xl md:text-3xl font-bold mb-4">
           About Artisan Decor – Interior Décor Experts in Delhi-NCR
         </h2>
-        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+        <p className="font-inter text-lg text-gray-600 max-w-3xl mx-auto">
           Premium interior décor solutions crafted for modern Indian homes,
           offices, and commercial spaces across Delhi-NCR.
         </p>
@@ -117,11 +117,11 @@ export default function AboutUs({ showCards = false }) {
         transition={{ duration: 0.6 }}
         className="mb-20"
       >
-        <h2 className="text-2xl font-semibold text-center mb-10">
+        <h2 className="font-playfair text-2xl font-semibold text-center mb-10">
           Interior Décor & Wall Design Services We Offer
         </h2>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="font-inter grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             {
               icon: <PaintRoller size={32} />,
@@ -165,11 +165,11 @@ export default function AboutUs({ showCards = false }) {
         transition={{ duration: 0.6 }}
         className="bg-gray-50 p-4 rounded-2xl"
       >
-        <h2 className="text-2xl font-semibold text-center mb-8">
+        <h2 className="font-playfair text-2xl font-semibold text-center mb-8">
           Why Choose Artisan Decor for Interior Décor Solutions
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="font-inter grid md:grid-cols-2 gap-6">
           {[
             "We believe great design begins with thoughtful craftsmanship.",
             "Every detail is carefully considered to create refined, lasting spaces.",

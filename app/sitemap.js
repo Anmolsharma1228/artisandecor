@@ -5,19 +5,19 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: "https://artisandec.in/wallpaper",
+      url: "https://artisandec.in/product/wallpaper",
       lastModified: new Date(),
     },
     {
-      url: "https://artisandec.in/curtains",
+      url: "https://artisandec.in/product/curtains",
       lastModified: new Date(),
     },
     {
-      url: "https://artisandec.in/carpet",
+      url: "https://artisandec.in/product/carpet",
       lastModified: new Date(),
     },
     {
-      url: "https://artisandec.in/all-type-panels",
+      url: "https://artisandec.in/product/all-type-panels",
       lastModified: new Date(),
     },
   ];

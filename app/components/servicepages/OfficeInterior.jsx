@@ -40,7 +40,7 @@ const OfficeInterior = () => {
       {/* WHAT WE OFFER */}
       <div className="mt-16 md:mt-36 px-4">
         <h2 className="text-center text-2xl sm:text-3xl font-bold mb-10">
-          What We Offer
+           Office Interior Design Services for Offices
         </h2>
 
         <Cards card={officeinteriorcarddata} />

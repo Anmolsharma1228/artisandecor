@@ -68,11 +68,11 @@ export default function HomeSwiper() {
                 style={{ y: textY, opacity: textOpacity }}
                 className="relative z-10 flex flex-col justify-center h-full px-6 md:px-20 max-w-2xl text-white"
               >
-                <h1 className="uppercase tracking-[0.3em] text-sm text-[#D4AF37] mb-4">
+                <h1 className="font-playfair uppercase tracking-[0.3em] text-sm text-[#D4AF37] mb-4">
                   Artisan Decor
                 </h1>
 
-                <h2 className="text-3xl md:text-5xl font-light leading-tight">
+                <h2 className="font-playfair text-3xl md:text-5xl font-light leading-tight">
                   Crafting{" "}
                   <span className="font-semibold text-[#D4AF37]">
                     Elegant Interiors
@@ -80,7 +80,7 @@ export default function HomeSwiper() {
                   <br /> with Purpose
                 </h2>
 
-                <p className="text-sm md:text-lg mt-6 text-gray-200 leading-relaxed">
+                <p className="font-inter text-sm md:text-lg mt-6 text-gray-200 leading-relaxed">
                   Artisan Decor delivers premium wall panels and décor solutions
                   designed for modern homes and professional workspaces. With a
                   focus on quality, design, and craftsmanship, we transform

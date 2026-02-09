@@ -39,7 +39,7 @@ const FurnitureWork = () => {
       {/* WHAT WE OFFER */}
       <div className="mt-16 md:mt-36 px-4">
         <h1 className="text-center text-2xl sm:text-3xl font-bold mb-10">
-          What We Offer
+           All Types Of Furniture Design Services for Homes & Offices
         </h1>
 
         <Cards card={furnitureworkcarddata} />
