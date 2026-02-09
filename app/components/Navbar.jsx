@@ -40,6 +40,8 @@ export default function Navbar() {
     },
     { href: "/catalogue", label: "Catalogues" },
     { href: "/ourwork", label: "Work Gallery" },
+    { href: "/review", label: "Reviews" },
+
   ];
 
   return (
