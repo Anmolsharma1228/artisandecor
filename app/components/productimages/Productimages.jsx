@@ -144,7 +144,7 @@ export const curtains = [
 export const collection = [
   {
     id: 1,
-    image: "/images/wd5.jpeg",
+    image: "/images/wd7.jpeg",
     title: "Customize Wallpaper",
     slug: "wallpaper",
   },

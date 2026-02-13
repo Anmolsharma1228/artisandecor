@@ -10,11 +10,11 @@ const fadeUp = {
 
 export default function CataloguePage() {
   return (
-    <div className="bg-[#FAF9F7]">
+    <div className="">
       {/* Header */}
       <section className="relative overflow-hidden mt-6">
         {/* Soft artisan gradient */}
-        <div className="absolute inset-0 bg-linear-to-br from-orange-50 via-white to-green-50" />
+        <div className="absolute inset-0" />
 
         <motion.div variants={fadeUp}
           initial="hidden"
@@ -32,7 +32,7 @@ export default function CataloguePage() {
             Inspired materials, thoughtful craftsmanship, elegant living
           </p>
 
-          <div className="font-inter mt-6 inline-flex items-center gap-2 border border-orange-200 px-6 py-2 rounded-full text-sm text-orange-700 bg-white/70 backdrop-blur">
+          <div className="font-inter mt-6 inline-flex items-center gap-2 border border-orange-200 px-6 py-2 rounded-full text-sm text-orange-700 backdrop-blur">
             Click on a series to explore
           </div>
         </motion.div>
