@@ -1,4 +1,4 @@
-import ProductCard from "./productimages/ProductCrad";
+import CollectionCard from "./CollectionCard";
 import { collection } from "./productimages/Productimages";
 
 export default function Collection() {
@@ -17,7 +17,7 @@ export default function Collection() {
 
         <div className="mt-12">
           {/* ProductCard already contains grid */}
-          <ProductCard card={collection} />
+          <CollectionCard items={collection} />
         </div>
       </div>
     </section>

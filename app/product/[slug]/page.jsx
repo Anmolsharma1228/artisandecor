@@ -5,7 +5,7 @@ import Carpet from "@/app/components/ProductsPage/Carpet";
 import GymFlooring from "@/app/components/ProductsPage/GymFlooring";
 import WindowBlinds from "@/app/components/ProductsPage/WindowBlinds";
 import Pergola from "@/app/components/ProductsPage/Pergola";
-import Decking from "@/app/components/ProductsPage/Decking";
+import Flooring from "@/app/components/ProductsPage/Flooring";
 import Cladding from "@/app/components/ProductsPage/Cladding";
 
 // ✅ SEO METADATA
@@ -69,7 +69,6 @@ export async function generateMetadata({ params }) {
   );
 }
 
-// ✅ PAGE RENDERING
 export default async function ProductPage({ params }) {
   const { slug } = await params;
 
@@ -80,8 +79,8 @@ export default async function ProductPage({ params }) {
   if (slug === "gym-flooring") return <GymFlooring />;
   if (slug === "window-blinds") return <WindowBlinds />;
   if (slug === "pergola") return <Pergola />;
-  if (slug === "decking") return <Decking />;
-  if (slug === "cladding") return <Cladding />;
+  if (slug === "wood-flooring") return <Flooring />;
+  if (slug === "decking-cladding") return <Cladding />;
 
   return <div>Product Not Found</div>;
 }
