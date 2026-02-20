@@ -29,7 +29,7 @@ export default function AboutUs({ showCards = false }) {
         viewport={{ once: true }}
         variants={fadeUp}
         transition={{ duration: 0.6 }}
-        className="text-center mb-16"
+        className="text-center mb-16 mt-8 sm:mt-0"
       >
         <h2 className="font-playfair text-2xl md:text-3xl font-bold mb-4">
           About Artisan Decor – Interior Décor Experts in Delhi-NCR
